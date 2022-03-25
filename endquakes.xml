@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:catalog="http://anss.org/xmlns/catalog/0.1">
+   <eventParameters public_ID="scratch">
+      <event ID="503992">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-01T06:07:03.682Z</value>
+            </time>
+            <latitude>
+               <value>47.942</value>
+            </latitude>
+            <longitude>
+               <value>-129.0921</value>
+            </longitude>
+            <depth>
+               <value>0.19766</value>
+               <uncertainty>0.24026</uncertainty>
+            </depth>
+            <depthType>from location</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503992p1">
+               <pickID>quakeml:/Arrival/NV/503992p1</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0329</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503992p2">
+               <pickID>quakeml:/Arrival/NV/503992p2</pickID>
+               <phase>S</phase>
+               <timeResidual>0.2566</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503992p3">
+               <pickID>quakeml:/Arrival/NV/503992p3</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0656</timeResidual>
+               <timeWeight>0.66964</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503992p4">
+               <pickID>quakeml:/Arrival/NV/503992p4</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2487</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503992p5">
+               <pickID>quakeml:/Arrival/NV/503992p5</pickID>
+               <phase>S</phase>
+               <timeResidual>0.192</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503992p1">
+            <time>
+               <value>2016-07-01T06:07:03.990Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503992p2">
+            <time>
+               <value>2016-07-01T06:07:05.075Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503992p3">
+            <time>
+               <value>2016-07-01T06:07:04.430Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503992p4">
+            <time>
+               <value>2016-07-01T06:07:05.160Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503992p5">
+            <time>
+               <value>2016-07-01T06:07:05.975Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503992">
+            <mag>
+               <value>0.10247</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>4</stationCount>
+         </magnitude>
+      </event>
+      <event ID="503994">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-01T08:27:04.552Z</value>
+            </time>
+            <latitude>
+               <value>47.9342</value>
+            </latitude>
+            <longitude>
+               <value>-129.0824</value>
+            </longitude>
+            <depth>
+               <value>1.9906</value>
+               <uncertainty>0.0057317</uncertainty>
+            </depth>
+            <depthType>operator assigned</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503994p1">
+               <pickID>quakeml:/Arrival/NV/503994p1</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0818</timeResidual>
+               <timeWeight>0.66964</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503994p2">
+               <pickID>quakeml:/Arrival/NV/503994p2</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2374</timeResidual>
+               <timeWeight>0.1676</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503994p3">
+               <pickID>quakeml:/Arrival/NV/503994p3</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0033</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503994p4">
+               <pickID>quakeml:/Arrival/NV/503994p4</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.1982</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503994p5">
+               <pickID>quakeml:/Arrival/NV/503994p5</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0099</timeResidual>
+               <timeWeight>0.33003</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503994p6">
+               <pickID>quakeml:/Arrival/NV/503994p6</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2118</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503994p1">
+            <time>
+               <value>2016-07-01T08:27:05.230Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503994p2">
+            <time>
+               <value>2016-07-01T08:27:05.585Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503994p3">
+            <time>
+               <value>2016-07-01T08:27:05.175Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503994p4">
+            <time>
+               <value>2016-07-01T08:27:05.735Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503994p5">
+            <time>
+               <value>2016-07-01T08:27:05.475Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503994p6">
+            <time>
+               <value>2016-07-01T08:27:06.230Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503994">
+            <mag>
+               <value>0.23031</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>5</stationCount>
+         </magnitude>
+      </event>
+      <event ID="503995">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-01T09:04:32.483Z</value>
+            </time>
+            <latitude>
+               <value>47.9464</value>
+            </latitude>
+            <longitude>
+               <value>-129.107</value>
+            </longitude>
+            <depth>
+               <value>1.9903</value>
+               <uncertainty>0.0058049</uncertainty>
+            </depth>
+            <depthType>operator assigned</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503995p1">
+               <pickID>quakeml:/Arrival/NV/503995p1</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2642</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503995p2">
+               <pickID>quakeml:/Arrival/NV/503995p2</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0245</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503995p3">
+               <pickID>quakeml:/Arrival/NV/503995p3</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2358</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503995p4">
+               <pickID>quakeml:/Arrival/NV/503995p4</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0057</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503995p5">
+               <pickID>quakeml:/Arrival/NV/503995p5</pickID>
+               <phase>S</phase>
+               <timeResidual>0.1555</timeResidual>
+               <timeWeight>0.082418</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503995p1">
+            <time>
+               <value>2016-07-01T09:04:33.195Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503995p2">
+            <time>
+               <value>2016-07-01T09:04:33.145Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503995p3">
+            <time>
+               <value>2016-07-01T09:04:33.655Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503995p4">
+            <time>
+               <value>2016-07-01T09:04:33.290Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503995p5">
+            <time>
+               <value>2016-07-01T09:04:34.330Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503995">
+            <mag>
+               <value>0.26112</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>5</stationCount>
+         </magnitude>
+      </event>
+      <event ID="503996">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-01T10:35:41.749Z</value>
+            </time>
+            <latitude>
+               <value>47.9617</value>
+            </latitude>
+            <longitude>
+               <value>-129.0832</value>
+            </longitude>
+            <depth>
+               <value>1.3944</value>
+               <uncertainty>0.50794</uncertainty>
+            </depth>
+            <depthType>from location</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503996p1">
+               <pickID>quakeml:/Arrival/NV/503996p1</pickID>
+               <phase>P</phase>
+               <timeResidual>0</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503996p2">
+               <pickID>quakeml:/Arrival/NV/503996p2</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0296</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503996p3">
+               <pickID>quakeml:/Arrival/NV/503996p3</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0114</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503996p4">
+               <pickID>quakeml:/Arrival/NV/503996p4</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.1207</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503996p5">
+               <pickID>quakeml:/Arrival/NV/503996p5</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0034</timeResidual>
+               <timeWeight>0.75</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503996p6">
+               <pickID>quakeml:/Arrival/NV/503996p6</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0371</timeResidual>
+               <timeWeight>0.0625</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503996p1">
+            <time>
+               <value>2016-07-01T10:35:42.180Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503996p2">
+            <time>
+               <value>2016-07-01T10:35:42.730Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503996p3">
+            <time>
+               <value>2016-07-01T10:35:42.275Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503996p4">
+            <time>
+               <value>2016-07-01T10:35:42.805Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503996p5">
+            <time>
+               <value>2016-07-01T10:35:42.725Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503996p6">
+            <time>
+               <value>2016-07-01T10:35:43.730Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503996">
+            <mag>
+               <value>0.51022</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>6</stationCount>
+         </magnitude>
+      </event>
+      <event ID="503997">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-01T10:40:27.893Z</value>
+            </time>
+            <latitude>
+               <value>47.9607</value>
+            </latitude>
+            <longitude>
+               <value>-129.0787</value>
+            </longitude>
+            <depth>
+               <value>1.8113</value>
+               <uncertainty>0.59171</uncertainty>
+            </depth>
+            <depthType>from location</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503997p1">
+               <pickID>quakeml:/Arrival/NV/503997p1</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0001</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503997p2">
+               <pickID>quakeml:/Arrival/NV/503997p2</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0552</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503997p3">
+               <pickID>quakeml:/Arrival/NV/503997p3</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0272</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503997p4">
+               <pickID>quakeml:/Arrival/NV/503997p4</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.1749</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503997p5">
+               <pickID>quakeml:/Arrival/NV/503997p5</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0427</timeResidual>
+               <timeWeight>0.5</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503997p6">
+               <pickID>quakeml:/Arrival/NV/503997p6</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.5394</timeResidual>
+               <timeWeight>0.0625</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503997p1">
+            <time>
+               <value>2016-07-01T10:40:28.380Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503997p2">
+            <time>
+               <value>2016-07-01T10:40:28.925Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503997p3">
+            <time>
+               <value>2016-07-01T10:40:28.485Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503997p4">
+            <time>
+               <value>2016-07-01T10:40:28.970Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503997p5">
+            <time>
+               <value>2016-07-01T10:40:28.830Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503997p6">
+            <time>
+               <value>2016-07-01T10:40:29.370Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503997">
+            <mag>
+               <value>0.44775</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>6</stationCount>
+         </magnitude>
+      </event>
+      <event ID="503998">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-02T03:15:22.540Z</value>
+            </time>
+            <latitude>
+               <value>47.9485</value>
+            </latitude>
+            <longitude>
+               <value>-129.0914</value>
+            </longitude>
+            <depth>
+               <value>1.6244</value>
+               <uncertainty>0.45192</uncertainty>
+            </depth>
+            <depthType>from location</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503998p1">
+               <pickID>quakeml:/Arrival/NV/503998p1</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0019</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503998p2">
+               <pickID>quakeml:/Arrival/NV/503998p2</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0185</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503998p3">
+               <pickID>quakeml:/Arrival/NV/503998p3</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0054</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503998p4">
+               <pickID>quakeml:/Arrival/NV/503998p4</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.1139</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503998p5">
+               <pickID>quakeml:/Arrival/NV/503998p5</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0312</timeResidual>
+               <timeWeight>0.5</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503998p6">
+               <pickID>quakeml:/Arrival/NV/503998p6</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2172</timeResidual>
+               <timeWeight>0.1875</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503998p1">
+            <time>
+               <value>2016-07-02T03:15:22.920Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503998p2">
+            <time>
+               <value>2016-07-02T03:15:23.435Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503998p3">
+            <time>
+               <value>2016-07-02T03:15:23.235Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503998p4">
+            <time>
+               <value>2016-07-02T03:15:23.905Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503998p5">
+            <time>
+               <value>2016-07-02T03:15:23.285Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503998p6">
+            <time>
+               <value>2016-07-02T03:15:23.870Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503998">
+            <mag>
+               <value>0.48997</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>6</stationCount>
+         </magnitude>
+      </event>
+      <event ID="503999">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-02T08:34:43.350Z</value>
+            </time>
+            <latitude>
+               <value>48.0273</value>
+            </latitude>
+            <longitude>
+               <value>-129.081</value>
+            </longitude>
+            <depth>
+               <value>2.9997</value>
+               <uncertainty>0.0057881</uncertainty>
+            </depth>
+            <depthType>operator assigned</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/503999p1">
+               <pickID>quakeml:/Arrival/NV/503999p1</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0039</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503999p2">
+               <pickID>quakeml:/Arrival/NV/503999p2</pickID>
+               <phase>S</phase>
+               <timeResidual>0.1417</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503999p3">
+               <pickID>quakeml:/Arrival/NV/503999p3</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0154</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503999p4">
+               <pickID>quakeml:/Arrival/NV/503999p4</pickID>
+               <phase>S</phase>
+               <timeResidual>0.0541</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503999p5">
+               <pickID>quakeml:/Arrival/NV/503999p5</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0207</timeResidual>
+               <timeWeight>0.75</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/503999p6">
+               <pickID>quakeml:/Arrival/NV/503999p6</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0908</timeResidual>
+               <timeWeight>0.1875</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/503999p1">
+            <time>
+               <value>2016-07-02T08:34:44.540Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503999p2">
+            <time>
+               <value>2016-07-02T08:34:45.845Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503999p3">
+            <time>
+               <value>2016-07-02T08:34:44.945Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503999p4">
+            <time>
+               <value>2016-07-02T08:34:46.465Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503999p5">
+            <time>
+               <value>2016-07-02T08:34:45.405Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/503999p6">
+            <time>
+               <value>2016-07-02T08:34:47.110Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/503999">
+            <mag>
+               <value>1.2785</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>6</stationCount>
+         </magnitude>
+      </event>
+      <event ID="504000">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-02T08:50:28.301Z</value>
+            </time>
+            <latitude>
+               <value>47.9368</value>
+            </latitude>
+            <longitude>
+               <value>-129.1085</value>
+            </longitude>
+            <depth>
+               <value>1.9903</value>
+               <uncertainty>0.0057466</uncertainty>
+            </depth>
+            <depthType>operator assigned</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/504000p1">
+               <pickID>quakeml:/Arrival/NV/504000p1</pickID>
+               <phase>S</phase>
+               <timeResidual>0.0073</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504000p2">
+               <pickID>quakeml:/Arrival/NV/504000p2</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0697</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504000p3">
+               <pickID>quakeml:/Arrival/NV/504000p3</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0005</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504000p4">
+               <pickID>quakeml:/Arrival/NV/504000p4</pickID>
+               <phase>S</phase>
+               <timeResidual>0.0289</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/504000p1">
+            <time>
+               <value>2016-07-02T08:50:29.470Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504000p2">
+            <time>
+               <value>2016-07-02T08:50:29.370Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504000p3">
+            <time>
+               <value>2016-07-02T08:50:29.260Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504000p4">
+            <time>
+               <value>2016-07-02T08:50:30.305Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/504000">
+            <mag>
+               <value>0.7626</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>4</stationCount>
+         </magnitude>
+      </event>
+      <event ID="504001">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-02T08:52:12.696Z</value>
+            </time>
+            <latitude>
+               <value>47.9436</value>
+            </latitude>
+            <longitude>
+               <value>-129.1032</value>
+            </longitude>
+            <depth>
+               <value>1.9903</value>
+               <uncertainty>0.0057866</uncertainty>
+            </depth>
+            <depthType>operator assigned</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/504001p1">
+               <pickID>quakeml:/Arrival/NV/504001p1</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0622</timeResidual>
+               <timeWeight>0.25</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504001p2">
+               <pickID>quakeml:/Arrival/NV/504001p2</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0146</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504001p3">
+               <pickID>quakeml:/Arrival/NV/504001p3</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2443</timeResidual>
+               <timeWeight>0.1875</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504001p4">
+               <pickID>quakeml:/Arrival/NV/504001p4</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.0021</timeResidual>
+               <timeWeight>0.75</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504001p5">
+               <pickID>quakeml:/Arrival/NV/504001p5</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0264</timeResidual>
+               <timeWeight>0.1875</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/504001p1">
+            <time>
+               <value>2016-07-02T08:52:13.630Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504001p2">
+            <time>
+               <value>2016-07-02T08:52:13.315Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504001p3">
+            <time>
+               <value>2016-07-02T08:52:13.800Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504001p4">
+            <time>
+               <value>2016-07-02T08:52:13.520Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504001p5">
+            <time>
+               <value>2016-07-02T08:52:14.405Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/504001">
+            <mag>
+               <value>0.12037</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>5</stationCount>
+         </magnitude>
+      </event>
+      <event ID="504002">
+         <type>earthquake</type>
+         <origin>
+            <time>
+               <value>2016-07-02T08:52:23.050Z</value>
+            </time>
+            <latitude>
+               <value>47.9413</value>
+            </latitude>
+            <longitude>
+               <value>-129.0978</value>
+            </longitude>
+            <depth>
+               <value>1.9263</value>
+               <uncertainty>0.78478</uncertainty>
+            </depth>
+            <depthType>from location</depthType>
+            <arrival publicID="quakeml:/Assoc/NV/504002p1">
+               <pickID>quakeml:/Arrival/NV/504002p1</pickID>
+               <phase>P</phase>
+               <timeResidual>0.0047</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504002p2">
+               <pickID>quakeml:/Arrival/NV/504002p2</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.2481</timeResidual>
+               <timeWeight>0.082418</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504002p3">
+               <pickID>quakeml:/Arrival/NV/504002p3</pickID>
+               <phase>P</phase>
+               <timeResidual>-0.001</timeResidual>
+               <timeWeight>1</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504002p4">
+               <pickID>quakeml:/Arrival/NV/504002p4</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.0924</timeResidual>
+               <timeWeight>0.082418</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504002p5">
+               <pickID>quakeml:/Arrival/NV/504002p5</pickID>
+               <phase>P</phase>
+               <timeResidual>0.003</timeResidual>
+               <timeWeight>0.5</timeWeight>
+            </arrival>
+            <arrival publicID="quakeml:/Assoc/NV/504002p6">
+               <pickID>quakeml:/Arrival/NV/504002p6</pickID>
+               <phase>S</phase>
+               <timeResidual>-0.1347</timeResidual>
+               <timeWeight>0.125</timeWeight>
+            </arrival>
+         </origin>
+         <pick publicID="quakeml:/Arrival/NV/504002p1">
+            <time>
+               <value>2016-07-02T08:52:23.505Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504002p2">
+            <time>
+               <value>2016-07-02T08:52:23.825Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMF"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504002p3">
+            <time>
+               <value>2016-07-02T08:52:23.640Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504002p4">
+            <time>
+               <value>2016-07-02T08:52:24.280Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="KEMO"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504002p5">
+            <time>
+               <value>2016-07-02T08:52:23.895Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHZ" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <pick publicID="quakeml:/Arrival/NV/504002p6">
+            <time>
+               <value>2016-07-02T08:52:24.665Z</value>
+            </time>
+            <evaluationMode>automatic</evaluationMode>
+            <waveformID channelCode="EHE" locationCode="--" networkCode="NV" stationCode="NCHR"/>
+         </pick>
+         <magnitude publicID="quakeml:/Mag/NV/504002">
+            <mag>
+               <value>0.14918</value>
+            </mag>
+            <type>Mw</type>
+            <evaluationMode>automatic</evaluationMode>
+            <stationCount>6</stationCount>
+         </magnitude>
+      </event>
+   </eventParameters>
+</q:quakeml>
