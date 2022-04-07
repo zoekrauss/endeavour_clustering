@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quakeml>
-   <eventParameters public_ID="scratch">
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:catalog="http://anss.org/xmlns/catalog/0.1">
+  <eventParameters public_ID="scratch">
       <event ID="548780">
          <type>earthquake</type>
          <origin>
@@ -76248,4 +76248,4 @@
          </magnitude>
       </event>
    </eventParameters>
-</quakeml>
+</q:quakeml>
