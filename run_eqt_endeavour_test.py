@@ -5,7 +5,7 @@
 from EQTransformer.utils.downloader import downloadMseeds
 
 stime = "2017-01-01"
-ftime = "2018-01-01"
+ftime = "2017-01-02"
 
 downloadMseeds(client_list=["IRIS"], stations_json='end_stationlist.json', output_dir="/home/adminuser/lynx/downloads_mseeds",min_lat =47.5 , max_lat = 48.5,min_lon=-129.4,max_lon=-128.8,start_time=stime,end_time=ftime, chunk_size=1,channel_list=["HH[ZNE]","EH[ZNE]", "HH[Z21]","EH[Z21]", "CH[ZNE]","HH[123]"],n_processor=24)
 
