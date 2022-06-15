@@ -160,11 +160,11 @@ def pick_corr_mseed(phase,sta,chan,evid1,evid2,t1,t2,ot1,ot2,path):
 
 @dask.delayed
 def loop_pairs(pair):
-    #try:
-    test = event_corr(pair)
-    return test
-    #except: 
-        #print(pair)
+    try:
+        test = event_corr(pair)
+        return test
+    except: 
+        print(pair)
 
 
 lazy_results = [loop_pairs(pair) for pair in loop_ind]
