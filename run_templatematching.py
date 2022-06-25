@@ -10,18 +10,18 @@ from datetime import datetime
 start = datetime.now()
 
 # Read in templates
-tribe = eqcorrscan.core.match_filter.tribe.read_tribe('filtered_templates_july2019.tgz')
+tribe = eqcorrscan.core.match_filter.tribe.read_tribe('growclust_templates_sep2017.tgz')
 
 # Let's just use the first template as a test
-tribe = eqcorrscan.core.match_filter.tribe.Tribe(templates = tribe[0])
+# tribe = eqcorrscan.core.match_filter.tribe.Tribe(templates = tribe[0])
 
 # Now detect!
 client = Client('IRIS')
-t1 = obspy.UTCDateTime("2019-07-01-17")
-t2 = obspy.UTCDateTime("2019-07-01-18")
+t1 = obspy.UTCDateTime("2017-09-01")
+t2 = obspy.UTCDateTime("2017-09-30")
 
-party = tribe.client_detect(client,t1,t2,threshold=8, threshold_type='MAD',trig_int=1)
+party = tribe.client_detect(client,t1,t2,threshold=8, threshold_type='MAD',trig_int=1,save_progress=True)
 
-party.write('test_detections')
+party.write('detections_sep2017')
 
 print(datetime.now()-start)
