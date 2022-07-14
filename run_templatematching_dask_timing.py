@@ -37,7 +37,10 @@ time_splits = [1,2,3,5,6,10,30] # number of days to split the month up into
 def loop_days(tribe,day1,split):
     t1 = obspy.UTCDateTime(day1)
     t2 = obspy.UTCDateTime(day1 + pd.Timedelta(split,'days'))
-    test = tribe.client_detect(client,t1,t2,threshold=6,threshold_type='MAD',trig_int=1,save_progress=False,process_cores=1,ignore_bad_data=True,concurrency='multiprocess')
+    try:
+        test = tribe.client_detect(client,t1,t2,threshold=6,threshold_type='MAD',trig_int=1,save_progress=False,process_cores=1,ignore_bad_data=True,concurrency='multiprocess')
+    except:
+        print('matched filter failed')
     return t1
 
 # Now loop through the different splits and get the timing for each
