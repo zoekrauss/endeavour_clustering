@@ -20,9 +20,9 @@ print('Read in the templates!')
 # Now detect!
 client = Client('IRIS')
 t1 = obspy.UTCDateTime("2017-09-01")
-t2 = obspy.UTCDateTime("2017-09-03")
+t2 = obspy.UTCDateTime("2017-09-30")
 
-party = tribe.client_detect(client,t1,t2,threshold=6, threshold_type='MAD',trig_int=1,save_progress=False,process_cores=1,ignore_bad_data=True)
+party = tribe.client_detect(client,t1,t2,threshold=6, threshold_type='MAD',trig_int=1,save_progress=False,process_cores=1,ignore_bad_data=True,save_progress=True)
 
 party.write('detections_sep2017')
 
