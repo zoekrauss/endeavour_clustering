@@ -28,31 +28,35 @@ def day_detect(day1,tribe):
     t2 = obspy.UTCDateTime(day1 + pd.Timedelta(1,'day'))
     client = Client('IRIS')
 
-    party=tribe.client_detect(client,t1,t2,threshold=6, threshold_type='MAD',trig_int=1,save_progress=False,ignore_bad_data=True,parallel_process=False)
-    fbase = 'detections_sep2017/'
-    fname = fbase + 'party_' + t1.strftime('%m_%d_%Y')
+    try:
+        party=tribe.client_detect(client,t1,t2,threshold=6, threshold_type='MAD',trig_int=1,save_progress=False,ignore_bad_data=True,parallel_process=False)
+        fbase = 'detections_sep2017/'
+        fname = fbase + 'party_' + t1.strftime('%m_%d_%Y')
 
-    # Make sure file can be overwritten
-    if os.path.exists(fname+'.tgz'):
-        os.remove(fname+'.tgz')
-        
-    # Write party to tar file manually
-    # Can't use the built-in function from eqcorrscan when running in multiprocess parallel
-    # because the way they do it is by making a temporary directory, 
-    # writing the tribes individually, and then zipping them up
-    # So instead, I riffed on their source code but made sure that every process names
-    # the temporary directory uniquely
-    with tempfile.TemporaryDirectory('party_' + t1.strftime('%m_%d_%Y')) as temp_dir:
-        Tribe([f.template for f in party.families]).write(
-            filename=temp_dir, compress=False,
-            catalog_format="QUAKEML")
-        for i, family in enumerate(party.families):
-            name = family.template.name + '_detections.csv'
-            name_to_write = os.path.join(temp_dir, name)
-            _write_family(family=family, filename=name_to_write)
-        with tarfile.open(fname+'.tgz', "w:gz") as tar:
-            tar.add(temp_dir, arcname=os.path.basename(fname+'.tgz'))
-        
+        # Make sure file can be overwritten
+        if os.path.exists(fname+'.tgz'):
+            os.remove(fname+'.tgz')
+
+        # Write party to tar file manually
+        # Can't use the built-in function from eqcorrscan when running in multiprocess parallel
+        # because the way they do it is by making a temporary directory, 
+        # writing the tribes individually, and then zipping them up
+        # So instead, I riffed on their source code but made sure that every process names
+        # the temporary directory uniquely
+        with tempfile.TemporaryDirectory('party_' + t1.strftime('%m_%d_%Y')) as temp_dir:
+            Tribe([f.template for f in party.families]).write(
+                filename=temp_dir, compress=False,
+                catalog_format="QUAKEML")
+            for i, family in enumerate(party.families):
+                name = family.template.name + '_detections.csv'
+                name_to_write = os.path.join(temp_dir, name)
+                _write_family(family=family, filename=name_to_write)
+            with tarfile.open(fname+'.tgz', "w:gz") as tar:
+                tar.add(temp_dir, arcname=os.path.basename(fname+'.tgz'))
+    
+    except:
+        print('Matched filter failed for '+ t1.strftime('%m_%d_%Y'))
+    
     
     
     
