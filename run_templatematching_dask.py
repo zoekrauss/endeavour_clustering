@@ -21,8 +21,8 @@ print('Read in the templates!')
 
 # Now detect!
 client = Client('IRIS')
-t1 = datetime(2019,9,1)
-t2 = datetime(2019,9,3)
+t1 = datetime(2017,9,1)
+t2 = datetime(2017,9,30)
 time_bins = pd.to_datetime(np.arange(t1,t2,pd.Timedelta(1,'days')))
 
 @dask.delayed

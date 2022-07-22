@@ -29,7 +29,7 @@ def day_detect(day1,tribe):
     client = Client('IRIS')
 
     # try:
-    party=tribe.client_detect(client,t1,t2,threshold=6, threshold_type='MAD',trig_int=1,save_progress=False,ignore_bad_data=True,parallel_process=False)
+    party=tribe.client_detect(client,t1,t2,threshold=3.2, threshold_type='absolute',trig_int=1,save_progress=False,ignore_bad_data=True,parallel_process=False)
     fbase = 'detections_sep2017/'
     fname = fbase + 'party_' + t1.strftime('%m_%d_%Y')
 
@@ -67,8 +67,8 @@ def main():
 
     start = timer()
 
-    t1 = datetime(2018,10,1)
-    t2 = datetime(2019,10,1)
+    t1 = datetime(2017,10,1)
+    t2 = datetime(2017,11,1)
     time_bins = pd.to_datetime(np.arange(t1,t2,pd.Timedelta(1,'days')))
 
     tribe = eqcorrscan.core.match_filter.tribe.read_tribe('growclust_templates_sep2017.tgz')
